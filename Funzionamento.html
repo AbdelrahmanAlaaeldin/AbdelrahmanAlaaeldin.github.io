@@ -1,0 +1,115 @@
+<html id="top">
+<head>
+    <title>Enigma Cipher Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Abdelrahman Alaaeldin">
+    <meta name="description" content="Enigma Cipher Machine">
+    <script type="text/javascript" id="cookiebanner" src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
+    
+    
+</head>
+<body>
+    <img src="emblema.png" width = "300" height="150" style="vertical-align:top;margin:30px 40px" >
+    <table>
+        <tr>
+            <td><a href="Home page.html" style="text-decoration: none; color:white; font-family: Arial, Helvetica, sans-serif;" >Homepage</a></td>
+            <td><a href="Funzionamento.html" style="text-decoration: none; color:white; font-family: Arial, Helvetica, sans-serif;" >Funzionamento</a></td>
+            <td><a href="Enigma nella finzione.html" style="text-decoration: none; color:white; font-family: Arial, Helvetica, sans-serif;" >Enigma&nbspnella&nbspfinzione</a></td>
+          </tr>
+    </table>
+
+    <h1><p style="font-size: 40;">Principio</p></h1>
+    <p>
+        In linea di puro principio, Enigma può essere considerata come un'estensione del metodo del cifrario di Vigenère munita di disco di Leon Battista Alberti. La differenza principale sta nel fatto che i dischi cifranti sono più di uno, posti fra loro "in cascata", e che manca qui la chiave, detta anche verme, che invece era elemento essenziale nella cifratura di Vigenère.
+    </p>
+
+    <h1><p style="font-size: 40;">Struttura</p></h1>
+    <figure style="margin-left: 1200px; margin-top: -30px; transform: scale(1);">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Enigma-rotor-flat-contacts.jpg" style="width:100%; max-width:260px ;height:80%;">
+        <figcaption>
+            <h3 style="font-size: 17px;color:black; font-weight: bold; font-family: Arial, Helvetica, sans-serif; text-align: center;">Una macchina Enigma esposta a Varsavia</h3>
+                
+        </figcaption>
+        </figure>
+        <figure style="margin-left: 1200px; margin-top: 460px; height: 240px;">
+        <video width="260px" height="150px"controls>
+            <source src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Encrypting_and_decrypting_using_an_enigma_machine.webm/Encrypting_and_decrypting_using_an_enigma_machine.webm.720p.vp9.webm" type="video/mp4">
+          </video>
+          <figcaption>
+            <h3 style="font-size: 17px;color:black; font-weight: bold; font-family: Arial, Helvetica, sans-serif; text-align: center;">Crittografia e decrittografia utilizzando una macchina enigma. 2016</h3>
+          </figcaption>
+        </figure>
+    <p>
+        La macchina Enigma aveva l'aspetto di una macchina per scrivere con due tastiere: la prima, inferiore, e la seconda nella quale i tasti erano sostituiti da lettere luminose che si accendevano ogni qualvolta venisse premuto un tasto sulla tastiera effettiva; la sequenza delle lettere che si illuminavano dava il messaggio cifrato (o quello in chiaro, se si batteva il testo cifrato).
+    </p>
+    <figure style="margin-left: 30px; margin-right:-30px; margin-top: -30px; margin-bottom:-35px; float:left; position: relative; transform: scale(0.75); max-width: 500px; max-height: 450px;">
+        <img src="Enigma-plugboard.jpg" style="width:100%; max-width:500px ;height:80%;">
+        <figcaption>
+            <h3 style="font-size: 19px;color:black; font-weight: bold; font-family: Arial, Helvetica, sans-serif; text-align: center;">Il pannello di controllo di una macchina Enigma, con gli spinotti per lo scambio delle lettere S-O e J-A.</h3>
+                
+        </figcaption>
+        </figure>
+    <p style="float:inline-start;">
+        Nella versione a tre dischi, il suo funzionamento si basava su tre dischi cablati, detti "rotori", che avevano 26 contatti per lato (uno per ogni lettera dell'alfabeto tedesco). I cablaggi interni dei dischi mettevano in comunicazione stabile ciascuna lettera su un lato con una lettera dell'altro lato. Detti "lato L" e "lato R" i due gruppi di contatti di ogni disco, uno dei contatti del "lato L" del primo disco riceveva la tensione dal deviatore del tasto premuto, la trasferiva a un contatto, predeterminato dal cablaggio, del suo "lato R", il quale "toccava" il corrispondente contatto del secondo disco sul "lato L" del medesimo, e il cablaggio del secondo disco trasferiva la tensione su un contatto predeterminato del suo "lato R" e così al terzo disco. I dischi erano collegati fisicamente da un meccanismo simile a un odometro: il primo disco ruotava di una lettera a ogni pressione di tasto, il secondo ruotava di una lettera ogni volta che il primo compiva un giro e il terzo ruotava di una lettera quando il secondo finiva un giro.
+    </p>
+    <p>
+        I contatti del "lato R" del terzo e ultimo rotore venivano a toccare gli omologhi di un disco "riflettore", dotato di contatti sul solo "lato L", che, cablato in modo da trasferire la tensione fra contatti diversi del medesimo lato, scambiava il collegamento della lettera del terzo rotore e rispediva indietro il contatto attraverso tutti e tre i rotori: quindi la tensione applicata al contatto della lettera premuta dall'operatore sulla tastiera veniva applicata sul contatto corrispondente del primo rotore e usciva dallo stesso rotore attraverso un altro contatto del medesimo "lato L", diretta ora verso una delle lampadine di Enigma attraverso il deviatore del tasto corrispondente.[8] Grazie al "riflettore" la macchina poteva così funzionare anche come decodificatore, senza intervento specifico alcuno, cioè era necessario, prima di cominciare la decodifica, portare solo rotori e spinotti nella configurazione giornaliera prevista dai cifrari (vedi oltre). Questa caratteristica comportava come conseguenza la "reciprocità" di codifica: se, in un determinato assetto dei rotori (e degli spinotti di cui oltre), la lettera B veniva, ad esempio, cifrata con una F, nel medesimo assetto, premendo il tasto F si codificava quest'ultima con B. Inoltre una lettera non poteva mai venire codificata in sé stessa.
+    </p>
+    <p>
+        Oltre a questo Enigma poteva essere regolata, per maggior sicurezza, con gli spinotti di un pannello a più prese per scambiare fra loro dieci lettere con altre dieci a scelta prima dell'ingresso nel primo rotore; infine i contatti di ogni rotore da una faccia all'altra potevano venire sfalsati a piacere.
+    </p>
+    <p>
+        Le disposizioni operative per le unità dotate della macchina Enigma prescrivevano che ogni giorno, per motivi di sicurezza, venisse modificato l'assetto della macchina disponendo collegamenti differenti per gli spinotti del pannello, posizionamenti reciproci diversi per i tre rotori, assetto iniziale diverso (lettera da cui partire per la prima codifica) di ciascuno di essi. Le informazioni relative erano contenute in un cifrario-calendario distribuito a ogni unità dotata di macchina Enigma.
+    </p>
+    <figure style="margin-left: 1200px; margin-top: -30px; transform: scale(1);">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Enigma_wiring_kleur.svg/800px-Enigma_wiring_kleur.svg.png" style="width:100%; max-width:260px ;height:80%; background-color: white;">
+        <figcaption>
+            <h3 style="font-size: 17px;color:black; font-weight: bold; font-family: Arial, Helvetica, sans-serif; text-align: center;">Una macchina Enigma esposta a Varsavia</h3>
+                
+        </figcaption>
+        </figure>
+    <p>
+        Della cifrante Enigma esisteva anche la versione a quattro dischi rotori (Enigma M4).
+    </p>
+    <h1><p style="font-size: 40;">Regolazioni</p></h1>
+    <p>Prima di usare la macchina l'operatore addetto alla cifratura del messaggio doveva:</p>
+    <ol>
+        <li>Consultare la "chiave Enigma", ossia la chiave contenuta nel cifrario;
+            Prendere i tre rotori da usare per quel dato giorno;</li>
+            <li>Impostare la programmazione di ogni singolo rotore indicata nella tripletta di lettere indicate nella chiave Enigma di quel giorno (Ringstellung);</li>
+            <li>Inserirli nella macchina nell'ordine indicato (Walzenlage);</li>
+            <li>Regolare la posizione iniziale degli anelli dei rotori sulla tripletta di lettere indicate nella chiave Enigma di quel giorno (Grundstellung);</li>
+            <li>Configurare le spine di scambio lettere come stabilito dalla chiave Enigma di quel giorno (Steckerverbindungen).</li>
+      </ol>
+    <p>A questo punto la macchina era pronta a cifrare (o decifrare) un messaggio.</p>
+    <h1><p style="font-size: 40;">Cifratura (e decifrazione) del messaggio</p></h1>
+    <p>
+        L'operatore riceveva il messaggio scritto. Via via che premeva sulla tastiera effettiva una lettera del medesimo, sulla "tastiera luminosa" compariva la corrispondente lettera cifrata e l'operatore (o chi per esso vicino a lui) la registrava su un foglio. Al termine della cifratura il foglio sul quale era stato scritto il messaggio cifrato veniva consegnato al marconista che lo trasmetteva (via radio o via filo, a seconda del mezzo trasmissivo da usare al momento). Analogamente si procedeva in decrittazione: l'operatore di Enigma riceveva dal marconista o da chi per lui il messaggio cifrato, lo "batteva" sulla tastiera effettiva e le lettere in chiaro comparivano via via sulla "tastiera luminosa".
+    </p>  
+    <h1><p style="font-size: 40;">Calcolo delle possibili combinazioni di cifratura</p></h1>
+    <p>
+        Nella versione tipica della macchina, si devono scegliere 3 rotori tra 5 disponibili. Per il primo si hanno 5 opzioni, dunque 4 e infine 3: il numero di combinazioni è:
+
+        <math display="block" style="margin-top:20px ;margin-bottom:20px;">
+            5&times;4&times;3&equals;60
+        </math>
+        Ogni rotore ha 26 posizioni iniziali, per cui il numero di posizioni di partenza è:
+
+        <math display="block" style="margin-top:20px ;margin-bottom:20px;">
+            26&sup3;&equals;17576
+        </math>
+        Le macchine di cifratura militare disponevano inoltre di un pannello di controllo, che permetteva di scambiare 13 coppie di lettere collegandole con dei cavi. Dal momento che tipicamente venivano scambiate 10 coppie di lettere con 10 cavi, il numero di combinazioni di collegamento possibili è il più grande, ovvero 150 738 274 937 250.
+
+        Infatti, 26 lettere possono essere combinate in 26! modi. Da queste togliamo le 3 coppie di lettere che non venivano tipicamente usate, dividendo per (3 × 2)!. Non importa l'ordine delle 10 coppie restanti, per cui si divide per 10!, e non importa l'ordine di ciascuna coppia (A B = B A): essendoci 10 coppie, dividiamo per 2 dieci volte, ovvero 210.
+
+        <img src="formula.png"style="position: relative; margin-top: 50px; margin-bottom: 30px; margin-left: 350px; margin-right: 50px;">
+    </p>
+    <p>Moltiplicando i tre risultati si ottengono 158 962 555 217 826 350 000 combinazioni di partenza</p>
+</body>
+<figure style="position: relative; margin-left: 1200px; background-color: rgb(78, 154, 225); min-width: none;min-height: none; width: 4px; height: 30px; border-radius: 20px;text-align: center;">
+    <a href="#top" style=" font-size: 20px;font-family: Arial, Helvetica, sans-serif; color: white; background-color: rgb(78, 154, 225);border-color: rgb(78, 154, 225);">Jump to top of page</a>
+</figure>
+    <footer style="padding:3px ;color: white;">
+        <a href="https://www.freepik.com/free-vector/3d-abstract-wave-pattern-background-vector_18880200.htm#query=matrix&position=38&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik
+    </footer>
+</html>
